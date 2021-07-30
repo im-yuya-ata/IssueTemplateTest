@@ -48,7 +48,7 @@ body:
       label: Issue type
       options:
         - label: 本当に？
-          requred: true
+        - requred: true
       description: check!
   - type: textarea
     id: ccc
