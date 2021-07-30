@@ -36,7 +36,7 @@ body:
     id: check01
     attributes:
       label: Issue type
-      options: [a,b,c,d,e]
+      options: [a:1,b:2,c:3,d:4,e:5]
       description: check!
   - type: textarea
     id: ccc
