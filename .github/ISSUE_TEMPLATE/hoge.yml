@@ -12,13 +12,13 @@ body:
     validations:
       required: true
   - type: input
+    id: bbb
     attributes:
-      id: 2
       description: ggg
       placeholder: hhh
       label: hoge02
       value: iii
   - type: textarea
+    id: ccc
     attributes:
-      id: 3
       label: 備考
