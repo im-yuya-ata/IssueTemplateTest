@@ -1,6 +1,5 @@
 name: hoge test
 description: aaa
-about: bbb
 title: ccc
 labels: ddd
 assignees: eee
@@ -14,5 +13,4 @@ body:
   - type: textarea
     attributes:
       label: 備考
-    description: >-
-      びこう
+    description: fff
