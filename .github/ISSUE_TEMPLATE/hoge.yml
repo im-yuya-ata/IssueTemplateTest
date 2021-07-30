@@ -23,7 +23,7 @@ body:
     id: ddd
     attributes:
       label: Issue type
-      options: a,b,c,d,e
+      options: [a,b,c,d,e]
       description: select! 111
   - type: dropdown
     id: ddd2
