@@ -1,6 +1,6 @@
 name: hoge test
 description: aaa
-title: ccc
+title: Issue title
 labels: ddd
 assignees: eee
 
@@ -9,15 +9,35 @@ body:
     id: aaa
     attributes:
       label: hoge01
+      description: ggg
     validations:
       required: true
   - type: input
     id: bbb
     attributes:
-      description: ggg
       placeholder: hhh
       label: hoge02
       value: iii
+      description: ggg
+  - type: dropdown
+    id: ddd
+    attributes:
+      label: Issue type
+      options: a,b,c,d,e
+      description: select! 111
+  - type: dropdown
+    id: ddd2
+    attributes:
+      label: Issue type
+      options: a,b,c,d,e
+      description: select! 222
+      multiple: true
+  - type: checkboxes
+    id: check01
+    attributes:
+      label: Issue type
+      options: a,b,c,d,e
+      description: check!
   - type: textarea
     id: ccc
     attributes:
