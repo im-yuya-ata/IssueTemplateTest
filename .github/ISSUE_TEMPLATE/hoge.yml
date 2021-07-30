@@ -29,14 +29,14 @@ body:
     id: ddd2
     attributes:
       label: Issue type
-      options: a,b,c,d,e
+      options: [a,b,c,d,e]
       description: select! 222
       multiple: true
   - type: checkboxes
     id: check01
     attributes:
       label: Issue type
-      options: a,b,c,d,e
+      options: [a,b,c,d,e]
       description: check!
   - type: textarea
     id: ccc
