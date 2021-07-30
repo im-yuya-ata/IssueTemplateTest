@@ -10,6 +10,3 @@ body:
       label: hoge01
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: 備考
